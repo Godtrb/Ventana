@@ -36,7 +36,7 @@ def min():
 boton_saludar = tk.Button(ventana, text="sum", command=sum)
 boton_saludar.pack(pady=5)
 
-boton_limpiar = tk.Button(ventana, text="Limpiar",)
+boton_limpiar = tk.Button(ventana, text="min",command=min)
 boton_limpiar.pack(pady=5)
 
 boton_salir = tk.Button(ventana, text="Salir", command=ventana.quit)
