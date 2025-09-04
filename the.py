@@ -26,8 +26,12 @@ def sum():
     etiqueta.config(text=f"{resul}")
 
 def min():
-    entrada.delete(0, tk.END)
-    etiqueta.config(text="Escribe tu nombre:")
+    num1 = dig1.get()
+    num1 = int(num1)
+    num2 = dig2.get()
+    num2 = int(num2)
+    resul = num1 - num2
+    etiqueta.config(text=f"{resul}")
 
 boton_saludar = tk.Button(ventana, text="sum", command=sum)
 boton_saludar.pack(pady=5)
