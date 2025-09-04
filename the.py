@@ -19,7 +19,9 @@ dig2.pack(pady=5)
 
 def sum():
     num1=dig1.get()
+    num1=int(num1)
     num2= dig2.get()
+    num2 = int(num2)
     resul=num1+num2
     etiqueta.config(text=f"{resul}")
 
